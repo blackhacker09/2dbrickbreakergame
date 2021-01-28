@@ -1,4 +1,17 @@
-#mycanvas{
-    background-color: #31f0f0;
-    margin: 125px 0px 125px 295px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#mycanvas {
+  background-color: #31f0f0;
+  margin: 125px 0px 125px 295px;
+}
+@media only screen and (max-width: 600px) {
+  #mycanvas {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 90%;
+  }
 }
