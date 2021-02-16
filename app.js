@@ -1,3 +1,5 @@
+// js file for 2d-brick breaker game 
+
 let canvas = document.getElementById('mycanvas');
 let ctx = canvas.getContext('2d');
 let ballRadius = 10;
